@@ -24,3 +24,11 @@ function actualizarLista() {
         }
     }
 }
+
+function sortearAmigo() {
+    let numero = Math.floor(Math.random()*amigos.length);
+    amigoSecreto = amigos[numero];
+    let resultado= document.getElementById("resultado")
+    resultado.innerHTML = "El amigo secreto es " + amigoSecreto;
+    
+}
