@@ -51,7 +51,7 @@ assets/: Carpeta con imágenes amigo-secreto.png y play_circle_outline.png.
 Notas
 
 El código usa JavaScript básico (let, bucle for, document.getElementById) para facilitar el aprendizaje.
-Si las imágenes en assets/ no están disponibles, elimina las líneas <img src="assets/..."> en index.html para evitar errores.
+Si las imágenes en assets/ no están disponibles, elimina las líneas<img src="assets/..." en index.html para evitar errores.
 
 Futuras mejoras
 
