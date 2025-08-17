@@ -7,7 +7,7 @@ Características
 Agregar amigos: Ingresa un nombre en un campo de texto y añádelo a la lista con un botón.
 Mostrar lista: Los nombres se muestran en una lista HTML con el prefijo "Amigo: ".
 Validación: Evita añadir nombres vacíos o inválidos.
-Sorteo (pendiente): Incluye un botón para sortear amigos, pero la funcionalidad no está implementada aún.
+Sorteo: Incluye un botón para sortear amigos.
 
 Requisitos
 
@@ -20,8 +20,8 @@ Clona o descarga el repositorio.
 Asegúrate de que los siguientes archivos estén en la misma carpeta:
 index.html
 app.js
-style.css (puede estar vacío si no usas estilos personalizados)
-assets/amigo-secreto.png y assets/play_circle_outline.png (o elimina las referencias a estas imágenes en index.html si no las tienes).
+style.css 
+assets/amigo-secreto.png y assets/play_circle_outline.png
 
 
 Abre index.html en un navegador.
@@ -33,14 +33,14 @@ Escribe un nombre en el campo de texto (por ejemplo, "Ana").
 Haz clic en el botón Añadir para agregar el nombre a la lista.
 La lista mostrará "Amigo: Ana", "Amigo: Luis", etc.
 Si el campo está vacío, aparecerá una alerta pidiendo un nombre válido.
-El botón Sortear amigo aún no tiene funcionalidad, pero muestra un mensaje en la consola.
+El botón SortearAmigo mostrará en pantalla el nombre de un jugador incluído en la lista, dando así el "amigp secreto".
 
 Estructura de archivos
 
 index.html: Estructura de la página con un campo de texto, botones, y listas para mostrar nombres.
 app.js: Contiene la lógica para agregar nombres y actualizar la lista:
 agregarAmigo(): Añade nombres al arreglo amigos y limpia el input.
-actualizarLista(): Muestra los nombres en <ul id="listaAmigos"> con el formato "Amigo: Nombre".
+actualizarLista(): Muestra los nombres con el formato "Amigo: Nombre".
 sortearAmigo(): Placeholder para la funcionalidad de sorteo.
 
 
@@ -51,7 +51,6 @@ assets/: Carpeta con imágenes amigo-secreto.png y play_circle_outline.png.
 Notas
 
 El código usa JavaScript básico (let, bucle for, document.getElementById) para facilitar el aprendizaje.
-La funcionalidad de sortear amigos está pendiente de implementación.
 Si las imágenes en assets/ no están disponibles, elimina las líneas <img src="assets/..."> en index.html para evitar errores.
 
 Futuras mejoras
