@@ -1,7 +1,7 @@
 
 Amigo Secreto
 Descripción
-Amigo Secreto es una aplicación web simple que permite agregar nombres de amigos a una lista y (en el futuro) sortear un "amigo secreto" para cada participante. Los nombres se ingresan mediante un campo de texto y se muestran en una lista con el formato "Amigo: Nombre". El proyecto está diseñado para ser fácil de entender, usando JavaScript básico con let, bucles for, y document.getElementById.
+Amigo Secreto es una aplicación web simple que permite agregar nombres de amigos a una lista y sortear un "amigo secreto" para cada participante. Los nombres se ingresan mediante un campo de texto y se muestran en una lista con el formato "Amigo: Nombre". El proyecto está diseñado para ser fácil de entender, usando JavaScript básico con let, bucles for, y document.getElementById.
 Características
 
 Agregar amigos: Ingresa un nombre en un campo de texto y añádelo a la lista con un botón.
@@ -44,7 +44,7 @@ actualizarLista(): Muestra los nombres con el formato "Amigo: Nombre".
 sortearAmigo(): Placeholder para la funcionalidad de sorteo.
 
 
-style.css: Archivo de estilos (puede estar vacío).
+style.css: Archivo de estilos.
 assets/: Carpeta con imágenes amigo-secreto.png y play_circle_outline.png.
 
 
@@ -55,6 +55,5 @@ Si las imágenes en assets/ no están disponibles, elimina las líneas<img src="
 
 Futuras mejoras
 
-Implementar sortearAmigo() para asignar un amigo secreto a cada participante.
 Agregar estilos en style.css para mejorar la apariencia.
 Permitir eliminar nombres de la lista.
